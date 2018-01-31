@@ -1,0 +1,98 @@
+html, body {
+    background-color: white;
+    background-image: url(img/negative-space-cow-pose-model-blue-sky.jpg);
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+/*NEED TO ADJUST FOR MOBILE SIZE */
+
+body, h1, h3, p {
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+}
+/*WHY THE FUCK h1 and h3 fonts doesn't change??*/
+
+#h4 {
+    font-family: 'Dancing Script', cursive;
+}
+
+/*time clock styling:*/
+#display {
+	color: #000;
+    margin-top: 2%;
+	font-size: 2em;
+/*    border-bottom: thin solid;*/
+/*    padding-bottom: 20px;*/
+    opacity: 0.80;
+/*    font-family: 'Pacifico', cursive;*/
+/*    border: solid;*/
+}
+
+/*date styling*/
+#date {
+  color: #000;
+  margin-top: 2%;
+  font-size: 1em;
+  font-weight: normal;
+  letter-spacing: 0.2em;
+  opacity: 0.6;
+/*  font-family: 'Pacifico', cursive;*/
+/*    border: solid; */
+}
+
+.container {
+    text-align: center;
+    padding-top: 5%;
+/*    border: solid; */
+}
+
+
+/*
+h1 {
+    color: black;
+    border: solid; 
+}
+*/
+
+hr {
+    width: 90%;
+}
+
+.quote-box {
+/*
+    border: solid; 
+    border-radius: 15px;
+*/
+    padding: 2%;
+    margin-bottom: 5% auto;
+    margin-left: 40%;
+    
+/*  height: 45em;*/
+  max-width: 100%;
+  color: black;
+  letter-spacing:0.1em;
+  text-align: center;
+  text-transform: lowercase;
+  line-height: 105%;
+  font-size: 2em;
+  font-variant: small-caps;
+}
+
+
+.list-inline {
+   display: inline-flex;
+   padding: 2%;
+   margin-bottom: 5% auto;
+   margin-left: 50%;
+}
+
+.btn { 
+    background-color: white;
+    opacity: 0.8;
+    margin: 10%;
+    width: 100%;
+}
+
+
+
+
