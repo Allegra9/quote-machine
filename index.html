@@ -24,42 +24,47 @@
 <body onload="startTime(); startDate();">
 
     <div class="container">
-    <div class="row">    
+    <div class="row">
+        
+        <div class="timeDate">
         <div id="date"></div>
         <div id="display"></div>
-
-
-    
-    
-
-    
-<!-- Title, if I feel like it -->
+        </div>
     
 <div class="col-md-12">
-<!--    <h1>Random Quote Machine</h1>-->
     <h4 id="h4">Let's see what this cow sayin':</h4>
     <hr>
 </div>
     
     
-<!-- Machine Code -->    
+<!-- Quote Machine Code -->    
     
 
     <div class="col-md-12">
     <div class="quote-box">
+        
+    <i class="fa fa-quote-left fa-1x fa-pull-left" aria-hidden="true" id="quote-symbol"></i>
+        
         <p id="quote"></p>    
         <p id="author"></p>
-        </div>
-        
-    <ul class="col-md-12 list-inline">
-        <li><a href='#' class="btn btn-default btn-lg  get-quote"><i class="fa fa-quote-left fa-fw"></i>New Quote</a></li>
-        <li><a href='#' class="btn btn-default btn-lg   share-quote"><i class="fa fa-twitter fa-fw"></i>Share Quote</a></li>
-        </ul>   
     </div>
+       
+    <div class="buttons">
+    <ul class="col-md-12 list-inline">
+        <li><a href='#' class="btn btn-primary active btn-lg  get-quote"><i class="fa fa-quote-left fa-fw"></i>Another One</a></li>
+        <li><a href='#' class="btn btn-default active btn-lg   share-quote"><i class="fa fa-twitter fa-fw"></i></a></li>
+        </ul>  
+      </div>  
+        
+    </div>
+            
 </div>
-
 </div>   
     
+<footer class="page-footer text-center fixed-bottom">
+      <p>project for <a href="https://www.freecodecamp.com/challenges/build-a-random-quote-machine">FreeCodeCamp</a>, coded by <a href="https://codepen.io/aukseallegra/">Allegra</a></p>
+    <p>powered by <a href="https://forismatic.com/en/api/">Forismatic</a></p>
+</footer>
     
     
 <!--SCRIPT LINKS END OF BODY-->  

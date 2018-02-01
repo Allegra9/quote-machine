@@ -37,7 +37,7 @@ getNewQuote();
     $('.share-quote').on('click',function(event){
         event.preventDefault();
         window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(quote + '- ' + author));
-        //new window will open
+        //new window will open for twitter
     });
 });
 
@@ -95,11 +95,10 @@ function startDate() {
 
 
 
-//FINAL API LINK:
+//Full API LINK, before jsonp added:
 
 /*
 http://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en
 
 */
-
 
