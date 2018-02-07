@@ -4,7 +4,6 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-/*NEED TO ADJUST FOR MOBILE SIZE */
 
 body, h3, p {
     font-family: 'Playfair Display', serif;
@@ -71,9 +70,6 @@ hr {
     line-height: 105%;
     font-size: 2em;
     font-variant: small-caps;
-    
-/*    max-height: inherit;*/
-/*    max-height: 80%;*/
 }
 
 .buttons {
@@ -96,11 +92,9 @@ li {
 }
 
 .page-footer {
-/*    position: relative;*/
     color: white;
-    margin-top: 5%;
+    margin-top: 20%;
     margin-bottom: 5%;
-    
 /*    border: 2px white solid;*/
 }
 
@@ -113,7 +107,7 @@ footer p {
 
 
 
-/*NEED TO ADJUST MEDIA QUERIES:*/
+/*MEDIA QUERIES:*/
 
 
 /* smaller than 768 */
@@ -121,8 +115,7 @@ footer p {
 @media screen and (max-width: 768px) {
     
     .quote-box {
-        margin-left: 20%;
-/*        margin-right: 10%;*/
+        margin-left: auto;
     }
     
     .buttons {
@@ -130,12 +123,6 @@ footer p {
       margin-left: 20%;
     }
     
-/*    need to sort out footer here:*/
-/*
-    .page-footer {
-
-    }
-*/
     
 }
 
