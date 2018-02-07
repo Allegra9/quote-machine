@@ -1,12 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Quote Machine</title>
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Quote Machine</title>
     
 <!--Google Fonts-->
 <link href="https://fonts.googleapis.com/css?family=PT+Serif|Pacifico|Playfair+Display" rel="stylesheet">
     
 <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">    
+    
+<!-- Normalize.css -->
+<link href="normalize.css" rel="stylesheet" type="text/css">
     
 <!--Style sheet -->
 <link href="style.css" rel="stylesheet" type="text/css">
@@ -20,7 +26,6 @@
 </head>
     
 <!-- TIME & DATE --> 
-    
 <body onload="startTime(); startDate();">
 
     <div class="container">
@@ -31,7 +36,7 @@
         <div id="display"></div>
         </div>
     
-<div class="col-md-12">
+<div class="col-md-12 col-xs-12">
     <h4 id="h4">Let's see what this cow sayin':</h4>
     <hr>
 </div>
@@ -40,32 +45,39 @@
 <!-- Quote Machine Code -->    
     
 
-    <div class="col-md-12">
+    <div class="col-md-12 col-xs-6">
+        
     <div class="quote-box">
-        
     <i class="fa fa-quote-left fa-1x fa-pull-left" aria-hidden="true" id="quote-symbol"></i>
-        
         <p id="quote"></p>    
         <p id="author"></p>
     </div>
        
     <div class="buttons">
-    <ul class="col-md-12 list-inline">
-        <li><a href='#' class="btn btn-primary active btn-lg  get-quote"><i class="fa fa-quote-left fa-fw"></i>Another One</a></li>
-        <li><a href='#' class="btn btn-default active btn-lg   share-quote"><i class="fa fa-twitter fa-fw"></i></a></li>
+    <ul class="col-xs-12 list-inline">
+        <li><a href='#' class="btn btn-primary active btn-lg  get-quote"><i class="fa fa-quote-left fa-fw" title="New Quote"></i>Another One</a></li>
+        <li><a href='#' class="btn btn-default active btn-lg   share-quote"><i class="fa fa-twitter fa-fw" title="Tweet it!"></i></a></li>
         </ul>  
       </div>  
-        
-    </div>
             
-</div>
-</div>   
+    
+<hr>
     
 <footer class="page-footer text-center fixed-bottom">
       <p>project for <a href="https://www.freecodecamp.com/challenges/build-a-random-quote-machine">FreeCodeCamp</a>, coded by <a href="https://codepen.io/aukseallegra/">Allegra</a></p>
     <p>powered by <a href="https://forismatic.com/en/api/">Forismatic</a></p>
 </footer>
+        
+</div> 
+<!--        col-md-12 div closure-->
     
+</div>
+<!--        div class="row" closure-->
+        
+</div>  
+<!--     div class="container" closure-->  
+    
+
     
 <!--SCRIPT LINKS END OF BODY-->  
     

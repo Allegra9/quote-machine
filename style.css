@@ -1,8 +1,8 @@
 html, body {
-    background-color: white;
+    background-color: #292a2d;
     background-image: url(img/negative-space-cow-pose-model-blue-sky.jpg);
-    background-size: 100%;
-    background-repeat: repeat-y;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 /*NEED TO ADJUST FOR MOBILE SIZE */
 
@@ -14,7 +14,6 @@ body, h3, p {
 #h4 {
     font-family: 'Dancing Script', cursive;
 }
-
 
 .timeDate {
     margin-left: 42%;
@@ -60,19 +59,21 @@ hr {
     border: 1px solid grey; 
     border-radius: 15px;
     background-color: aliceblue;
-    opacity: 0.4;
+    opacity: 0.5;
     padding: 2%;
     margin-bottom: 2%;
     margin-top: 2%;
     margin-left: 40%;
-    max-width: 100%;
     color: black;
-    letter-spacing:0.1em;
+    letter-spacing: 0.1em;
     text-align: center;
     text-transform: lowercase;
     line-height: 105%;
     font-size: 2em;
     font-variant: small-caps;
+    
+/*    max-height: inherit;*/
+/*    max-height: 80%;*/
 }
 
 .buttons {
@@ -95,40 +96,47 @@ li {
 }
 
 .page-footer {
+/*    position: relative;*/
     color: white;
-    font-family: 'Dancing Script', cursive;
-    padding-top: 10%;
+    margin-top: 5%;
     margin-bottom: 5%;
+    
+/*    border: 2px white solid;*/
 }
 
 footer p {
     padding: 0;
     margin: 0;
     font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
 }
 
 
 
 /*NEED TO ADJUST MEDIA QUERIES:*/
 
-@media (max-width: 750px) {
+
+/* smaller than 768 */
+/* iPad portrait  */
+@media screen and (max-width: 768px) {
     
     .quote-box {
         margin-left: 20%;
-        margin-right: 10%;
+/*        margin-right: 10%;*/
     }
     
     .buttons {
 /*      border: 1px solid grey; */
-      margin-left: 30%;
+      margin-left: 20%;
     }
     
-    footer {
-    position: fixed;
-    height: 5%;
-    bottom: 0;
-    width: 100%;
+/*    need to sort out footer here:*/
+/*
+    .page-footer {
+
     }
+*/
+    
 }
 
 
