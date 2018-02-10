@@ -15,8 +15,9 @@ body, h3, p {
 }
 
 .timeDate {
-    margin-left: 42%;
     display: block;
+    width: 100%;
+/*    border: solid;*/
     padding-bottom: 2%;
 }
 
@@ -24,7 +25,6 @@ body, h3, p {
 #display {
 	color: #000;
     margin-top: 2%;
-    margin-left: auto;
     display: block;
 	font-size: 2em;
     opacity: 0.80;
@@ -34,7 +34,6 @@ body, h3, p {
 #date {
   color: #000;
   margin-top: 2%;
-  margin-left: auto;
   font-size: 1em;
   font-weight: normal;
   letter-spacing: 0.2em;
